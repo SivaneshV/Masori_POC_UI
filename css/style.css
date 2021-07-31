@@ -54,13 +54,25 @@ body {
     white-space: nowrap;
 }
 
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
 .btn-primary {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
 
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #1fbf55;
+}
+
 .content-container {
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 .form-label {
